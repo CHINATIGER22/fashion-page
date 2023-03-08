@@ -18,15 +18,15 @@ h1 {
 }
 
 img {
-    width: 40%;
-    height: 700%;
+    width: 50%;
+    height: 900%;
     float: right;
     margin-left: 216px;
 }
 
 .two2 {
     font-size: 400%;
-    text-align: center;
+    text-align: left;
     border-top: 0cm;
 }
 
@@ -34,28 +34,36 @@ p {
     color: brown;
     font-size: 50px;
     text-align: left;
+    float: left;
+    display: block;
+    border-left: 50%;
 }
 
-#two {
-    width: 100px; float: left;
+.two {
+    width: 50px; 
+    overflow: auto;
+    float: left;
+
 }
 
-.img,.two1,.two2 {
+.img,.two1, .two2 {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    width: 50%;
 }
 
 input {
     background-color: greenyellow;
     color: red;
     font-size: 50px;
+    float: left;
        
 }
 
 /* RESPONSIVE DESIGN-mobile VIEW(768PX & 991PX) */
-@media screen and (max-width:761) {
+@media screen and (max-width:768) {
     #two{
         gap: 30px;
         padding: 3%;
@@ -66,9 +74,9 @@ input {
         text-align: center;
     }
 
-    img {
+    .img {
         width: 100%;
-        float: center;
+        float: none;
         height: 600px;
 
     }
