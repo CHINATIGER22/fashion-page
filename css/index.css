@@ -1,31 +1,48 @@
 body {
-    background-color: beige;
+    background-image: url('20221010_025125_0000.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
 }
 h1 {
-    text-align: center;
+    text-align:left;
     margin: 30px;
 }
 .two1 {
     font-size: 400%; 
     text-align: center;
     color: brown;
+    border-bottom: 1.5px;
     
+}
+
+img {
+    width: 40%;
+    height: 700%;
+    float: right;
+    margin-left: 216px;
 }
 
 .two2 {
     font-size: 400%;
     text-align: center;
+    border-top: 0cm;
 }
 
 p {
     color: brown;
     font-size: 50px;
+    text-align: left;
 }
 
-.two {
-    justify-content: space-between;
+#two {
+    width: 100px; float: left;
+}
+
+.img,.two1,.two2 {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -34,24 +51,29 @@ input {
     background-color: greenyellow;
     color: red;
     font-size: 50px;
-    
+       
 }
 
-/* RESPONSIVE DESIGN-TABLET VIEW(768PX & 991PX) */
-@media screen and (max-width:991) {
-    .two{
+/* RESPONSIVE DESIGN-mobile VIEW(768PX & 991PX) */
+@media screen and (max-width:761) {
+    #two{
         gap: 30px;
         padding: 3%;
-        width: 46%;
-        text-align: left;
+        text-align: center;
     }
 
     p {
-        text-align: left;
+        text-align: center;
     }
 
     img {
-        align-content: flex right;
+        width: 100%;
+        float: center;
+        height: 600px;
+
+    }
+    .h1 {
+       float: left;
     }
 }
 
