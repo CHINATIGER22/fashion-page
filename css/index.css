@@ -4,24 +4,54 @@ body {
 }
 h1 {
     text-align: center;
+    margin: 30px;
 }
 .two1 {
-    font-size: 300%; 
+    font-size: 400%; 
     text-align: center;
     color: brown;
     
 }
 
 .two2 {
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
 }
 
 p {
     color: brown;
-    font-size: 25px;
+    font-size: 50px;
+}
+
+.two {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 input {
+    background-color: greenyellow;
+    color: red;
+    font-size: 50px;
     
 }
+
+/* RESPONSIVE DESIGN-TABLET VIEW(768PX & 991PX) */
+@media screen and (max-width:991) {
+    .two{
+        gap: 30px;
+        padding: 3%;
+        width: 46%;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    img {
+        align-content: flex right;
+    }
+}
+
