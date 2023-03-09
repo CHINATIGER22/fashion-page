@@ -19,9 +19,9 @@ h1 {
 
 .flex-container> .two {
 width: 50px;
-margin: 5%;
+margin: 1%;
 text-align: center;
-line-height: 200%;
+line-height: 100%;
 font-size: 30px;
 }
 
@@ -36,13 +36,13 @@ img {
     margin: 35px;
 }
 .two1 {
-    font-size: 300%; 
+    font-size: 150%; 
     text-align: left;
     color: brown;
     margin-bottom: px;
 }
 .two2 {
-    font-size: 400%;
+    font-size: 150%;
     text-align: left;
     border-top: 0cm;
     margin: 4px;
@@ -51,11 +51,13 @@ img {
 
 p {
     color: brown;
-    font-size: 50px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
     float: none;
     display: flex;
     border-left: 50%;
+    width: 1000%;
+    
 }
 
 .two {
@@ -75,6 +77,14 @@ input {
     float: left;
     font-family: Arial;
 }
+
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: grey;
+    margin-top: 20px;
+    font-size: 20px;
+  }
 
 
 
