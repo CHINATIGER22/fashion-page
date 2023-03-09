@@ -3,64 +3,81 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    text-align: center;
 }
+
 h1 {
     text-align:left;
-    margin: 30px;
+    margin: 50px;
 }
-.two1 {
-    font-size: 300%; 
-    text-align: center;
-    color: brown;
-    border-bottom: 1.5px;
-    
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flex-container> .two {
+width: 50px;
+margin: 5%;
+text-align: center;
+line-height: 200%;
+font-size: 30px;
+}
+
+.flex-container> .one {
+    width: 50%;
 }
 
 img {
-    width: 50%;
-    height: 900%;
+    width: 10%;
+    height: fit-content;
     float: right;
-    margin-left: 216px;
+    margin: 35px;
 }
-
+.two1 {
+    font-size: 300%; 
+    text-align: left;
+    color: brown;
+    margin-bottom: px;
+}
 .two2 {
     font-size: 400%;
     text-align: left;
     border-top: 0cm;
+    margin: 4px;
+    margin-bottom: 1.5px;
 }
 
 p {
     color: brown;
     font-size: 50px;
-    text-align: left;
-    float: left;
-    display: block;
+    text-align: center;
+    float: none;
+    display: flex;
     border-left: 50%;
 }
 
 .two {
     width: 50px; 
-    overflow: auto;
     float: left;
-
 }
 
-.img,.two1, .two2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-    width: 50%;
+.one {
+    float: right;
+    width: 50px;
 }
 
 input {
-    background-color: greenyellow;
+    background-color: antiquewhite;
     color: red;
-    font-size: 50px;
+    font-size: 40px;
     float: left;
-       
+    font-family: Arial;
 }
+
+
+
 
 /* RESPONSIVE DESIGN-mobile VIEW(768PX & 991PX) */
 @media screen and (max-width:768) {
