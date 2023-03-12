@@ -35,6 +35,7 @@ img {
     height: fit-content;
     float: right;
     margin: 35px;
+    
 }
 .two1 {
     font-size: 150%; 
@@ -74,11 +75,11 @@ p {
 
 input {
     background-color: antiquewhite;
-    color: red;
+    color: black;
     font-size: 40px;
     float: left;
     font-family: Arial;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .footer {
