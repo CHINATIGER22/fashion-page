@@ -31,11 +31,11 @@ font-size: 30px;
 }
 
 img {
-    width: 10%;
-    height: fit-content;
+    width: 500px;
+    height: 600px;
     float: right;
-    margin: 35px;
-    
+    margin-right: 0px;
+      
 }
 .two1 {
     font-size: 150%; 
@@ -71,6 +71,7 @@ p {
 .one {
     float: right;
     width: 50px;
+    margin-right: 0%;
 }
 
 input {
