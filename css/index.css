@@ -15,12 +15,11 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
 }
 
 .flex-container> .two {
 width: 50px;
-margin: 1%;
+margin: 5%;
 text-align: center;
 line-height: 100%;
 font-size: 30px;
@@ -28,37 +27,45 @@ font-size: 30px;
 
 .flex-container> .one {
     width: 50%;
+    margin-right: 4%;
+    margin-top: 80px;
+    padding-right: 0%;
 }
 
 img {
-    width: 500px;
-    height: 600px;
+    width: 800px;
+    height: 700px;
     float: right;
-    margin-right: 0px;
-      
+    margin-right: 0.5px;
+    margin-left: 0% ;
 }
+
 .two1 {
-    font-size: 150%; 
+    font-size: 200%; 
     text-align: left;
     color: brown;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     margin-top: 100px;
+    padding-left: 120px;
 }
+
 .two2 {
-    font-size: 150%;
+    font-size: 200%;
     text-align: left;
     border-top: 0cm;
     margin: 4px;
     margin-bottom: 100px;
-   }
+    padding-left: 120px;
+}
 
 p {
     color: brown;
     font-size: 20px;
     text-align: left;
-    float: none;
+    float: left;
     display: flex;
     width: 1000%;
+    padding-left: 120px;
     
 }
 
@@ -70,8 +77,10 @@ p {
 
 .one {
     float: right;
-    width: 50px;
+    width: 100px;
     margin-right: 0%;
+    padding: 27%;
+    padding-top: 0%;
 }
 
 input {
@@ -81,6 +90,8 @@ input {
     float: left;
     font-family: Arial;
     margin-top: 0px;
+    margin-bottom: 0%;
+    margin-left: 120px;
     border-radius: 20%;
 }
 
@@ -89,10 +100,11 @@ input {
     cursor: pointer;
     background-color: brown;
     font-size: 100%;
-    padding: 15px 25px;
     border-radius: 30%;
     box-shadow: 0 0px #999;
     transition-duration: 0.4s;
+    margin-left: 120px;
+    margin-bottom: 0;
 }
 
 .botton:hover {
@@ -107,11 +119,12 @@ input {
 }
 
 .footer {
-    padding: 1px;
+    padding: 7px;
     text-align: center;
     background: grey;
-    margin-top: 70px;
-    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 3%;
+    font-size: 20px;
   }
 
 
@@ -119,24 +132,10 @@ input {
 
 /* RESPONSIVE DESIGN-mobile VIEW(768PX & 991PX) */
 @media screen and (max-width:768) {
-    #two{
-        gap: 30px;
-        padding: 3%;
-        text-align: center;
+    .body {
+        flex-direction: column;
+        margin: 0%;
+        }
+    
     }
-
-    p {
-        text-align: center;
-    }
-
-    .img {
-        width: 100%;
-        float: none;
-        height: 600px;
-
-    }
-    .h1 {
-       float: left;
-    }
-}
 
