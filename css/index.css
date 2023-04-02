@@ -83,7 +83,7 @@ p {
 input {
     background-color: antiquewhite;
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     float: left;
     font-family: Arial;
     margin-top: 0px;
@@ -116,7 +116,7 @@ input {
 }
 
 .footer {
-    padding: 7px;
+    padding: 4px;
     text-align: center;
     background: grey;
     margin-top: 0%;
@@ -130,17 +130,17 @@ input {
 /* RESPONSIVE DESIGN-mobile VIEW(768PX & 991PX) */
 @media screen and (max-width:768) {
     .body {
-        flex-direction: column;
         margin: 0%;
+        width: 100%;
         }
 
     .flex-container {
         display: block;
     }  
     
-    .two2 {
+    
 
-    }
+    
     
     }
 
